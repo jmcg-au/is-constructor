@@ -1,0 +1,21 @@
+{
+  "name": "@jmcg/is-constructor",
+  "description": "Determine whether a JavaScript function is a constructor, without calling it",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "author": {
+    "name": "John McIntyre Grimau",
+    "email": "194338419+jmcg-au@users.noreply.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmcg-au/is-constructor"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "test": "node --test --experimental-test-coverage test.js"
+  }
+}
